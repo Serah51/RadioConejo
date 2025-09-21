@@ -1003,7 +1003,7 @@ class MusicPlayer(QMainWindow):
         self.folders = self.config_manager.load_folders()
         
         # Inicializar weather manager
-        self.weather_manager = WeatherManager("97f1d17707b2f26ed110a6e1160ec6f4", "3515001")
+        self.weather_manager = WeatherManager("aqui debe ir tu ID de WeatherManager", "#######")
         self.weather_worker = None
         
         # Inicializar VLC
